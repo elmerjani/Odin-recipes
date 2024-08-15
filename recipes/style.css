@@ -1,18 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Playwrite+BE+VLG:wght@100..400&family=Playwrite+CU&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 *{
-    font-family: "Edu AU VIC WA NT Hand", cursive;
+    font-family: "Edu AU VIC WA NT Hand", cursive,sans-serif;
     word-spacing: 7px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+    
+}
+
+html{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 body{
-    
+
+    padding: 10px;
+    max-width: 800px;
+  
     height: 100vh;
-   
+
     display: flex;
     flex-direction: column;
+  
     align-items: center;
     
     
@@ -21,9 +33,9 @@ body{
 }
 
 .container{
-    width: 800px;
+   
     display: flex;
-    flex-flow: column nowrap;
+    flex-direction: column ;
     gap: 25px;
 }
 .container h1{
@@ -45,6 +57,7 @@ body{
 
 img {
     display: block;
+    width: 100%;
     border-radius: 22px;
 }
 .ingredients {
